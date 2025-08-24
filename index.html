@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SARZZ OFFICIAL</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: radial-gradient(circle at top, #0f0f0f, #000);
+      color: #fff;
+      overflow-x: hidden;
+    }
+
+    /* === Marquee Style === */
+    .marquee {
+      width: 100%;
+      overflow: hidden;
+      background: rgba(0,255,255,0.1);
+      border-top: 1px solid #0ff;
+      border-bottom: 1px solid #0ff;
+      padding: 6px 0;
+    }
+    .marquee p {
+      display: inline-block;
+      white-space: nowrap;
+      animation: scroll 10s linear infinite;
+      color: #0ff;
+      font-size: 0.9rem;
+      font-weight: 600;
+      text-shadow: 0 0 8px #0ff;
+    }
+    @keyframes scroll {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
+    }
+
+    header {
+      text-align: center;
+      padding: 25px 15px 10px;
+    }
+    header img {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      border: 2px solid #0ff;
+      box-shadow: 0 0 15px #0ff;
+    }
+    header h1 {
+      font-size: 1.6rem;
+      margin: 10px 0 3px;
+      color: #0ff;
+      text-shadow: 0 0 12px #0ff;
+    }
+    header p {
+      font-size: 0.95rem;
+      color: #aaa;
+      text-shadow: 0 0 6px #0ff;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+    }
+    .section-title {
+      font-size: 1.1rem;
+      margin: 15px 0 10px;
+      color: #0ff;
+      text-shadow: 0 0 8px #0ff;
+    }
+    .buttons, .socials {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 8px;
+      width: 100%;
+      max-width: 850px;
+    }
+    .glass-btn {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(0,255,255,0.4);
+      backdrop-filter: blur(8px);
+      padding: 10px;
+      border-radius: 12px;
+      text-align: center;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: #0ff;
+      text-shadow: 0 0 8px #0ff;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 0 10px rgba(0,255,255,0.2);
+    }
+    .glass-btn:hover {
+      transform: translateY(-3px) scale(1.02);
+      box-shadow: 0 0 20px rgba(0,255,255,0.6);
+    }
+    .glass-btn i {
+      margin-right: 6px;
+      font-size: 1rem;
+    }
+
+    footer {
+      margin: 20px 0 10px;
+      text-align: center;
+      font-size: 0.8rem;
+      color: #666;
+    }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.3rem; }
+      .glass-btn { font-size: 0.8rem; padding: 9px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Marquee Atas -->
+  <div class="marquee">
+    <p>🔥 Promo! | 🚀 Jasa Termurah! | 🌟 Layanan Cepat - Aman - Terpercaya 🌟 | buy Sekarang! 🔥</p>
+  </div>
+
+  <header>
+    <img src="https://img1.pixhost.to/images/8193/634453755_zion.jpg" alt="Logo SARZZ">
+    <h1>SARZZ OFFICIAL</h1>
+    <p>🌟 Layanan Termurah, Terpercaya, Cepat! 🌟</p>
+  </header>
+
+  <div class="container">
+    <div class="section-title">📋 JASA & PRODUK</div>
+    <div class="buttons">
+      <div class="glass-btn">JASA PASANG BOT</div>
+      <div class="glass-btn">JASA PASANG SCRIPT</div>
+      <div class="glass-btn">JASA JADI BOT</div>
+      <div class="glass-btn">JASA BUAT SCRIPT BOT TELEGRAM</div>
+      <div class="glass-btn">JASA BUG</div>
+      <div class="glass-btn">JASA BANNED</div>
+      <div class="glass-btn">JASA UNBANNED</div>
+      <div class="glass-btn">MURID BUG</div>
+      <div class="glass-btn">MURID BANNED/UNBANNED</div>
+      <div class="glass-btn">MURID NOKOS</div>
+      <div class="glass-btn">NOKOS ALL NEGARA</div>
+      <div class="glass-btn">NOKOS TELEGRAM</div>
+      <div class="glass-btn">RESELLER / ADMIN / PT / OWNER / TANGANKANAN / MODERATOR PANEL</div>
+    </div>
+
+    <div class="section-title">📡 SALURAN & ADMIN</div>
+    <div class="socials">
+      <a href="https://t.me/SarzzCyt" target="_blank" class="glass-btn"><i class="bi bi-telegram"></i> Admin Telegram</a>
+      <a href="https://wa.me/6283872560527" target="_blank" class="glass-btn"><i class="bi bi-whatsapp"></i> Admin WhatsApp</a>
+      <a href="https://whatsapp.com/channel/0029VbBVoNr8kyyNwZJtzz0x" target="_blank" class="glass-btn"><i class="bi bi-broadcast-pin"></i> Saluran Whatsapp</a>
+      <a href="https://youtube.com/@Sarzz_Official" target="_blank" class="glass-btn"><i class="bi bi-youtube"></i> YouTube Channel</a>
+    </div>
+  </div>
+
+  <!-- Marquee Bawah -->
+  <div class="marquee">
+    <p>⚡ Hubungi Admin Sekarang! | 💎 Join Saluran Whatsapp & Dapatkan Info Terbaru | 🎥 Subscribe YouTube @Sarzz_Official! ⚡</p>
+  </div>
+
+  <footer>
+    © 2025 SARZZ OFFICIAL. All rights reserved.
+  </footer>
+</body>
+</html>
